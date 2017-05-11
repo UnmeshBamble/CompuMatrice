@@ -1,0 +1,2 @@
+select productname,quantity,totalamount from OrderItem OI join Order O on OI.OrderId=O.OrderId 
+join Product P on P.ProductId=OI.ProductId
